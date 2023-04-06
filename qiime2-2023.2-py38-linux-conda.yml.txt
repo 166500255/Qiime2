@@ -1,8 +1,10 @@
 channels:
   - qiime2/label/r2023.2
-  - conda-forge
-  - bioconda
+  - qiime2
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
   - defaults
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda
+  - biocore
 dependencies:
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5

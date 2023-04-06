@@ -1,9 +1,9 @@
-channels:
+channels: 
   - qiime2/label/r2023.2
   - conda-forge
   - bioconda
   - defaults
-dependencies:
+dependencies: 
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5
   - _r-mutex=1.0.1
